@@ -1,0 +1,6 @@
+
+<div *ngFor="let todo of alpha ">
+    <app-todo-item [todo]="todo" (tododelete)="deleteTodo($event)">
+
+    </app-todo-item>
+</div>
